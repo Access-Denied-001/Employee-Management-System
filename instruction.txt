@@ -1,11 +1,10 @@
-javac -d classes/ -cp classes/ EmptyTreeException.java
-javac -d classes/ -cp classes/ IllegalIDException.java
-javac -d classes/ -cp classes/ NotEmptyException.java
-javac -d classes/ -cp classes/ OrgHierarchyInterface.java
-javac -d classes/ -cp classes/ OrgHierarchy.java
-javac -d classes/ -cp classes/ Tester.java
+javac EmptyTreeException.java
+javac classes/ IllegalIDException.java
+javac NotEmptyException.java
+javac OrgHierarchyInterface.java
+javac OrgHierarchy.java
+javac Tester.java
 java -cp classes/ Tester
-javac -d classes/ -cp classes/ Tester2.java
+javac Tester2.java
 java -cp classes/ Tester2
 
-rm classes/EmptyTreeException.class classes/IllegalIDException.class ../classes/NotEmptyException.class classes/OrgHierarchyInterface.class classes/OrgHierarchy.class classes/Tester.class
