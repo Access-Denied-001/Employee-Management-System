@@ -1,0 +1,57 @@
+
+--Initialized an Empty Tree--
+
+Is Tree Empty- true
+Hired Owner successfully with id = 1
+
+Is Tree Empty- false
+
+
+--Trying to hire owner with id = 2--
+Exception1
+
+Hired employee successfully with id = 2
+Hired employee successfully with id = 3
+Hired employee successfully with id = 4
+Hired employee successfully with id = 5
+Hired employee successfully with id = 6
+Hired employee successfully with id = 7
+Hired employee successfully with id = 8
+Hired employee successfully with id = 9
+Hired employee successfully with id = 10
+
+
+New Organization Size: 10
+
+Organization = 1,2 3,4 5 6 7,8 9,10
+PASS
+
+What is the level of employee 1?
+Level = 1
+PASS
+
+What is the level of employee 5?
+Level = 3
+PASS
+
+What is the level of employee 10?
+Level = 5
+PASS
+
+--Trying to fire employee with id = 7--
+--Employee fired successfully--
+Size: 9
+Updated Organization = 1,2 3,4 5 6,8 9,10
+PASS
+
+-- fire employee with id = 8 and make id = 4 new boss of its children--
+--Employee fired successfully--
+Size: 8
+New Tree- 1,2 3,4 5 6,9,10
+Subtree rooted at 9- 9,10
+--Employee 9 is made new boss successfully--
+PASS
+
+--Find lowest common boss of employees 3 and 10--
+Lowest common boss = 1
+PASS

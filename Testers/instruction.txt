@@ -1,0 +1,71 @@
+javac -d classes/ -cp classes/ EmptyTreeException.java
+javac -d classes/ -cp classes/ IllegalIDException.java
+javac -d classes/ -cp classes/ NotEmptyException.java
+javac -d classes/ -cp classes/ OrgHierarchyInterface.java
+javac -d classes/ -cp classes/ OrgHierarchy.java
+javac -d classes/ -cp classes/ Tester1_1.java
+java -cp classes/ Tester1_1
+javac -d classes/ -cp classes/ Tester1_2.java
+java -cp classes/ Tester1_2
+javac -d classes/ -cp classes/ Tester1_3.java
+java -cp classes/ Tester1_3
+javac -d classes/ -cp classes/ Tester1_4.java
+java -cp classes/ Tester1_4
+javac -d classes/ -cp classes/ Tester1_5.java
+java -cp classes/ Tester1_5
+javac -d classes/ -cp classes/ Tester1_6.java
+java -cp classes/ Tester1_6
+javac -d classes/ -cp classes/ Tester1_7.java
+java -cp classes/ Tester1_7
+javac -d classes/ -cp classes/ Tester1_8.java
+java -cp classes/ Tester1_8
+javac -d classes/ -cp classes/ Tester1_9.java
+java -cp classes/ Tester1_9
+javac -d classes/ -cp classes/ Tester1_10.java
+java -cp classes/ Tester1_10
+javac -d classes/ -cp classes/ Tester2_1.java
+java -cp classes/ Tester2_1
+javac -d classes/ -cp classes/ Tester2_2.java
+java -cp classes/ Tester2_2
+javac -d classes/ -cp classes/ Tester2_3.java
+java -cp classes/ Tester2_3
+javac -d classes/ -cp classes/ Tester2_4.java
+java -cp classes/ Tester2_4
+javac -d classes/ -cp classes/ Tester2_5.java
+java -cp classes/ Tester2_5
+javac -d classes/ -cp classes/ Tester2_6.java
+java -cp classes/ Tester2_6
+javac -d classes/ -cp classes/ Tester2_7.java
+java -cp classes/ Tester2_7
+javac -d classes/ -cp classes/ Tester2_8.java
+java -cp classes/ Tester2_8
+javac -d classes/ -cp classes/ Tester2_9.java
+java -cp classes/ Tester2_9
+javac -d classes/ -cp classes/ Tester2_10.java
+java -cp classes/ Tester2_10
+javac -d classes/ -cp classes/ Tester3_1.java
+java -cp classes/ Tester3_1
+javac -d classes/ -cp classes/ Tester3_2.java
+java -cp classes/ Tester3_2
+javac -d classes/ -cp classes/ Tester3_3.java
+java -cp classes/ Tester3_3
+javac -d classes/ -cp classes/ Tester3_4.java
+java -cp classes/ Tester3_4
+javac -d classes/ -cp classes/ Tester3_5.java
+java -cp classes/ Tester3_5
+javac -d classes/ -cp classes/ Tester3_6.java
+java -cp classes/ Tester3_6
+javac -d classes/ -cp classes/ Tester3_7.java
+java -cp classes/ Tester3_7
+javac -d classes/ -cp classes/ Tester3_8.java
+java -cp classes/ Tester3_8
+javac -d classes/ -cp classes/ Tester3_9.java
+java -cp classes/ Tester3_9
+javac -d classes/ -cp classes/ Tester3_10.java
+java -cp classes/ Tester3_10
+javac -d classes/ -cp classes/ TesterBasic.java
+java -cp classes/ TesterBasic
+javac -d classes/ -cp classes/ TesterAdv.java
+java -cp classes/ TesterAdv
+
+rm classes/EmptyTreeException.class classes/IllegalIDException.class ../classes/NotEmptyException.class classes/OrgHierarchyInterface.class classes/OrgHierarchy.class classes/Tester.class

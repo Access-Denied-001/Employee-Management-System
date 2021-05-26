@@ -1,0 +1,105 @@
+
+--Initialized an Empty Tree--
+
+Is Tree Empty- true
+
+What is the level of employee 70?
+Exception3
+Hired Owner successfully with id = 20
+
+Is Tree Empty- false
+
+
+--Trying to hire owner with id = 2--
+Exception2
+
+Hired employee successfully with id = 4
+Hired employee successfully with id = 26
+Hired employee successfully with id = 3
+Hired employee successfully with id = 9
+Hired employee successfully with id = 21
+Hired employee successfully with id = 30
+Hired employee successfully with id = 2
+Hired employee successfully with id = 7
+Hired employee successfully with id = 11
+Hired employee successfully with id = 1
+Hired employee successfully with id = 35
+Hired employee successfully with id = 19
+Hired employee successfully with id = 8
+Hired employee successfully with id = 18
+
+New Organization Size: 15
+
+Organization = 20,4 26,3 9 21 30,2 7 11,1 19 35,8 18
+
+What is the level of employee 35?
+Level = 5
+
+What is the level of employee 20?
+Level = 1
+
+What is the level of employee 70?
+Exception2
+
+--Trying to fire employee with id = 1--
+--Employee fired successfully--
+Size: 14
+Updated Organization = 20,4 26,3 9 21 30,2 7 11,19 35,8 18
+
+--Trying to fire employee with id = 30--
+--Employee fired successfully--
+Size: 13
+Updated Organization = 20,4 26,3 9 21,2 7 11,19 35,8 18
+
+--Trying to fire employee with id = 70--
+Exception2
+Size: 12
+New Tree- 20,4 26,3 21,2 7 11,19 35,8 18
+Subtree rooted at 3- 3,2 7 11,19 35,8 18
+3
+New Tree- 20,4 26,3 21,2 7 11,19 35,8 18
+Subtree rooted at 3- 3,2 7 11,19 35,8 18
+Employee does not exist
+
+Hired employee successfully with id = 9
+Hired employee successfully with id = 10
+Hired employee successfully with id = 22
+Hired employee successfully with id = 15
+Hired employee successfully with id = 17
+Hired employee successfully with id = 30
+Hired employee successfully with id = 1
+Hired employee successfully with id = 29
+Hired employee successfully with id = 33
+Hired employee successfully with id = 31
+Size: 21
+New Tree- 20,4 9 10 26,1 3 15 17 21 22 29 30 33,2 7 31,19 35,8 18
+31a
+
+--Employee fired successfully--
+Size: 20
+New Tree- 20,4 9 10 26,1 15 17 21 22 29 30 33,2 7 31,19 35,8 18
+17
+
+--Employee fired successfully--
+Size: 19
+Updated Organization = 20,4 9 10 26,1 15 17 21 22 29 30 33,2 7 31,19 35,8
+
+--Trying to fire employee with id = 19--
+--Employee fired successfully--
+Size: 18
+Updated Organization = 20,4 9 10 26,1 15 17 21 22 29 30 33,2 7 31,35,8
+
+--Find lowest common boss of employees 3 and 10--
+Lowest common boss = 20
+
+--Find lowest common boss of employees 3 and 10--
+Lowest common boss = 20
+
+--Find lowest common boss of employees 3 and 10--
+Lowest common boss = 20
+
+--Find lowest common boss of employees 3 and 10--
+Lowest common boss = 20
+
+--Find lowest common boss of employees 3 and 10--
+Lowest common boss = -1
