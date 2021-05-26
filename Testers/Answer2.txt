@@ -1,0 +1,16 @@
+
+Is Tree Empty- false
+
+Exeption3
+
+New Organization Size: 6
+
+Organization = 1000,2 13,99999 1000000 1000000000
+PASS
+--Employee fired successfully--
+Size: 5
+New Tree- 1000,2,99999 1000000 1000000000
+Subtree rooted at 2- 2,99999 1000000 1000000000
+--Employee 2 is made new boss successfully--
+PASS
+Exeption1

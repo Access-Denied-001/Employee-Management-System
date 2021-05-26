@@ -1,0 +1,22 @@
+
+Is Tree Empty- false
+
+Exeption3
+
+New Organization Size: 10
+
+Organization = 1,2 3 12,4 7 8 10,5 16
+PASS
+Level = 4
+PASS
+Size: 9
+Updated Organization = 1,2 3 12,4 8 10,5 16
+PASS
+--Employee fired successfully--
+Size: 8
+New Tree- 1,2 3 12,4 10,5 16
+Subtree rooted at 3- 3,4,5 16
+--Employee 3 is made new boss successfully--
+PASS
+Lowest common boss = 1
+PASS
