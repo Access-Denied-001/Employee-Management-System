@@ -147,3 +147,5 @@ ORGANISATIONAL TREE note that this not the tree that code represents but this tr
 8. lowestCommonBoss(3,10) - 1 (as between ID=3 and ID=10, ID=1 is LCB)
 
 9. lowestCommonBoss(16,5) - 4
+
+If you have anyother doubts then check A2.pdf file as this contains detailed overview of the assignment.
