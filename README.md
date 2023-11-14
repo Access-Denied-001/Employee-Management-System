@@ -1,4 +1,4 @@
-# Organisational-Tree
+# Employee Management System
 
 Problem Statement-
 We want to mantain a system which keeps list of employees. The system must be dynamic enough to support change in employee status( new employee added under some current employee, current employee getting fired or quitting( if current employee has some employees under then these employees will be transfered to other employee on the same level in the company. CEO is the first person to get into the company and cannot be fired(assumption as a better approach would be to change the data of root node of the Tree as this is rooted on CEO better efficiency). Each employee stored in the system is stored with ID(unique), and level of the employee in the company(grade to which the employee is getting hired).
